@@ -2,16 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-    <key>NSLocationWhenInUseUsageDescription</key>
-    <string>AttendX needs your location to verify you are in the classroom</string>
-    <key>NSCameraUsageDescription</key>
-    <string>AttendX needs camera access to scan QR codes</string>
-    <key>NSPhotoLibraryUsageDescription</key>
-    <string>AttendX needs photo library access to save attendance exports</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>Attendx</string>
+	<string>AttendX</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -23,7 +17,7 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>$(FLUTTER_BUILD_NAME)</string>git init
+	<string>$(FLUTTER_BUILD_NAME)</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
@@ -51,5 +45,24 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+
+	<!-- Permissions -->
+	<key>NSCameraUsageDescription</key>
+	<string>AttendX needs camera access to scan QR codes</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>AttendX needs your location to verify you are in the classroom</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>AttendX needs photo library access to save attendance exports</string>
+
+	<!-- Google Sign-In -->
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.503721863731-hljnhobfqm7av0cmeb3j2faoqshjp71d.apps.googleusercontent.com</string>
+			</array>
+		</dict>
+	</array>
 </dict>
 </plist>
