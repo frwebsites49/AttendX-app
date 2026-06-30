@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>503721863731-ld2mgutsqeo9ll1q0d51d4rgoee5uv2k.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.503721863731-ld2mgutsqeo9ll1q0d51d4rgoee5uv2k</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>503721863731-hljnhobfqm7av0cmeb3j2faoqshjp71d.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBO3_cS9JYB7MeXNJsTdJL6ry00B11t0y0</string>
+	<key>GCM_SENDER_ID</key>
+	<string>503721863731</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.college.attendx</string>
+	<key>PROJECT_ID</key>
+	<string>attendx-7262f</string>
+	<key>STORAGE_BUCKET</key>
+	<string>attendx-7262f.firebasestorage.app</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:503721863731:ios:c21b98248c87f6d4639146</string>
+</dict>
+</plist>

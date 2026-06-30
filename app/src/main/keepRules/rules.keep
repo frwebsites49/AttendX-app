@@ -1,0 +1,9 @@
+# Keep all app classes
+-keep class com.college.attendx.** { *; }
+
+# Keep all AndroidX
+-keep class androidx.** { *; }
+
+# Keep all Firebase
+-keep class com.google.firebase.** { *; }
+-keep class com.google.android.gms.** { *; }
